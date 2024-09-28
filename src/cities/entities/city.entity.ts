@@ -11,6 +11,9 @@ export class City {
   @Column({ type: 'text', nullable: true })
   description: string;
 
+  @Column()
+  password:string;
+
   @Column({ type: 'boolean' })
   active: boolean;
 }
